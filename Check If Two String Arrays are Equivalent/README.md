@@ -1,8 +1,13 @@
-# Check If Two String Arrays are Equivalent
+# 1662. Check If Two String Arrays are Equivalent
 
+<!-- solution -->
 ```dart
-  main(){
-    prient("hi")
-  }
+    bool arrayStringsAreEqual(List<String> word1, List<String> word2) {
+        if (word1.join() == word2.join()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
 ```
